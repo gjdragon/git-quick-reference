@@ -33,6 +33,15 @@ git push origin v1.0.0
 git tag -d v1.0.0
 git push origin --delete v1.0.0
 ```
+- Show all tags and their tag messages
+```bash
+#only to annotated tags (tags created with -a or -m)
+git tag -n
+#see full messages
+git tag -n99
+#for a specific tag
+git show <tagname>
+```
 
 ## 🔄 Stash
 ```bash
