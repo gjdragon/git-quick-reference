@@ -81,4 +81,15 @@ git config --global user.email "Email"
 git config --global alias.st "status"
 ```
 
+## Cherry‑pick the commit into main
+```bash
+# Make sure you're on main
+git checkout main
+# Update main
+git pull origin main
+# Cherry-pick the commit
+git cherry-pick <commit-hash>
+# Push the updated main branch
+git push origin main
+```
 ---
