@@ -23,6 +23,8 @@ git branch <name>
 git switch <name>
 git merge <name>
 git branch -d <name>
+# create an upstream 
+git push -u origin dev
 ```
 
 ## 🏷️ Tags
